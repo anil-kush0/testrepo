@@ -1,0 +1,23 @@
+<?php
+function myModule_page_attachments(array &$page){
+    $page['#attached']['library'][]='myModule/custom_css';  //='moduleName/libraries.yml me css ki jo lib ka naam rakha hai wo'
+}
+
+
+function myModule_theme($existing,$theme,$type,$path){
+    return [
+        'information_page' => [
+            'variables' =>[
+                'items' => [],
+                'title'=>''
+
+            ]
+        ]
+    ];
+}
+
+// function myModule_node_insert($myNode){
+//     Drupal::messenger()->addMessage('aapke module me hook lag gya!');
+// }
+
+?>

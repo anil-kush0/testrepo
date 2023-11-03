@@ -1,0 +1,5 @@
+name: anilweb
+description: anil developed assignment
+core_version_requirement: ^10 || ^9
+type: module
+package: Custom Modules by anil

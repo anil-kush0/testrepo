@@ -1,0 +1,5 @@
+name: custom_node
+type: module
+description: newcustom node module that have a good features inbuilt in it
+core_version_requirement: ^8 || ^9 || ^10
+package: Anil's Modules

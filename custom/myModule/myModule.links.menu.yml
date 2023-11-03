@@ -1,0 +1,19 @@
+myModule.content:
+  title: Hello_link
+  description: this is the link for hello page
+  route_name: myModule.content
+  weight: 4
+  menu_name: account
+  options:
+    attributes:
+      target: _blank
+
+myModule.info:
+  title: info
+  description: this is the link for info page
+  route_name: myModule.info
+  weight: 5
+  menu_name: account
+  options:
+    attributes:
+      target: _blank

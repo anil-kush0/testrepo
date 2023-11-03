@@ -1,0 +1,5 @@
+name: "testingModule"
+description: "Kartik's module"
+core_version_requirement: ^9 || ^10
+type: module
+package: "Tester"

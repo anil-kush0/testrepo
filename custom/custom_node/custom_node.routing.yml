@@ -1,0 +1,7 @@
+custom_node.finalcontent:
+  path: '/node_creation'
+  defaults:
+    _controller: '\Drupal\custom_node\Controller\CustomnodeCreation::finalcontent'
+    _title: 'Custom node creation'
+  requirements:
+    _permission: 'access content'

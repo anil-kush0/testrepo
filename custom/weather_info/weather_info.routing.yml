@@ -1,0 +1,15 @@
+weather_info.weather_info_controller:
+  path: '/weather-info'
+  defaults:
+    _controller: '\Drupal\weather_info\Controller\WeatherInfoController::weatherInfo'
+    _title: 'Weather Info'
+  requirements:
+    _permission: 'access content'
+
+weather_info.settings_form:
+  path: '/admin/config/weather-info'
+  defaults:
+    _form: '\Drupal\weather_info\Form\WeatherInfoForm'
+    _title: 'Weather Info Settings'
+  requirements:
+    _permission: 'administer site configuration'

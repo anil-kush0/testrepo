@@ -1,0 +1,5 @@
+name: NewCustom
+description: this is our assignment module
+core_version_requirement: ^10 || ^9
+type: module
+package: Custom Modules

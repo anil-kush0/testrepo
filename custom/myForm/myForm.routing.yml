@@ -1,0 +1,24 @@
+myForm.createForm:
+  path: '/ApiForm'
+  defaults:
+    _form: 'Drupal\myForm\Form\MyFormData'
+    _title: 'add entry.....'
+  requirements:
+    _permission: 'access content'
+
+myForm.node_controller:
+  path: '/api/nodes'
+  defaults:
+    _controller: '\Drupal\myForm\Controller\myFormController::showNodes'
+  methods: [GET]
+  requirements:
+    _permission: 'access content'
+
+myForm.node_gen:
+  path: '/api/genNodes'
+  defaults:
+    _controller: '\Drupal\myForm\Controller\myFormController::nodeGenerate'
+  methods: [POST]
+  requirements:
+    _permission: 'access content'
+  

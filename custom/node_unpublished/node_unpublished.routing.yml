@@ -1,0 +1,7 @@
+node_unbublished.content:
+  path: '/node/node-unpublished'
+  defaults:  
+    _controller: '\Drupal\node_unpublished\Controller\NodeUnpublish::content'
+    _title: 'Anil kumar node unbuplish module'
+  requirements:
+    _permission: 'access content'

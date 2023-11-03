@@ -1,0 +1,7 @@
+name: 'Weather Info'
+type: module
+description: 'Display weather information based on user IP.'
+core_version_requirement: ^8 || ^9
+package: Custom
+dependencies:
+  - drupal:config

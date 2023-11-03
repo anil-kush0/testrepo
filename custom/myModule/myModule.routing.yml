@@ -1,0 +1,23 @@
+myModule.content:
+  path: '/hello'
+  defaults:
+    _controller: '\Drupal\myModule\Controller\HelloController::content'
+    _title: 'Anil kumar page module'
+  requirements:
+    _permission: 'access content'
+
+myModule.offer:
+  path: '/offers/{count}'
+  defaults:
+    _controller: '\Drupal\myModule\Controller\HelloController::offer'
+    _title: 'Offers'
+  requirements:
+     _permission: 'access content'
+
+myModule.info:
+  path: '/info'
+  defaults:
+    _controller: '\Drupal\myModule\Controller\HelloController::info'
+    _title: 'info page'
+  requirements:
+    _permission: 'info permission'

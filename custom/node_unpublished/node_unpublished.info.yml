@@ -1,0 +1,5 @@
+name: unpublished_node
+type: module
+description: A module created by anil kumar for unbublishing the node...
+core_version_requirement: ^8 || ^9 || ^10
+package: Anil's Modules

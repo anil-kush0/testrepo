@@ -1,0 +1,5 @@
+name: myWebform
+type: module
+description: A module created by anil kumar that have a good features inbuilt in it
+core_version_requirement: ^8 || ^9 || ^10
+package: Anil's Webform
